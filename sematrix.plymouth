@@ -5,5 +5,5 @@ ModuleName=script
 
 [script]
 ImageDir=/usr/share/plymouth/themes/sematrix
-ScriptFile=/usr/share/plymouth/themes/matrix/sematrix.script
+ScriptFile=/usr/share/plymouth/themes/sematrix/sematrix.script
 
