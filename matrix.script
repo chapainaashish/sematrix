@@ -1,0 +1,58 @@
+# Window Sizes
+window_width = Window.GetWidth();
+window_height = Window.GetHeight();
+screen_x = Window.GetX();
+screen_y = Window.GetY();
+
+# Background is Black
+time = 0;
+
+# Importing images
+logo.matrix1 = Image("1.png");
+logo.matrix2 = Image("2.png");
+logo.matrix3 = Image("3.png");
+logo.matrix4 = Image("4.png");
+logo.matrix5 = Image("5.png");
+logo.matrix6 = Image("6.png");
+
+# Sprites
+logo.sprite = Sprite(logo.matrix1);
+logo.sprite.SetOpacity (1.0);
+logo.sprite.SetX(screen_x);
+logo.sprite.SetY(screen_y);
+
+fun refreshHandler() {
+    if (time < 35){
+        time = time + 1;
+    }
+    else {
+        time = 0;
+    }
+
+    if (time == 5){
+        logo.sprite.SetImage(logo.matrix1);
+    }
+    else {
+    if (time == 10){
+        logo.sprite.SetImage(logo.matrix2);
+    }
+    else {
+    if (time == 15){
+        logo.sprite.SetImage(logo.matrix3);
+    }
+    else {
+    if (time == 20){
+        logo.sprite.SetImage(logo.matrix4);
+    }
+    else {
+    if (time == 25){
+        logo.sprite.SetImage(logo.matrix5);
+    }
+    else {
+    if (time == 30){
+        logo.sprite.SetImage(logo.matrix6);
+    }
+    }}}}}
+}
+
+Plymouth.SetRefreshFunction (refreshHandler);
