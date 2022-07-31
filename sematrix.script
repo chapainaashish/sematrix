@@ -22,7 +22,7 @@ logo.sprite.SetX(screen_x);
 logo.sprite.SetY(screen_y);
 
 fun refreshHandler() {
-    if (time < 35){
+    if (time < 32){
         time = time + 1;
     }
     else {
