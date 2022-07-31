@@ -18,3 +18,7 @@ To uninstall sematrix from system, run
 ```
 pacman -R sematrix-plymouth-theme
 ```
+***Preview***
+<div id="header" align="center">
+  <img src="https://github.com/chapainaashish/sematrix/blob/main/6ogvwg.gif"/>
+</div>
