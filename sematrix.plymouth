@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=sematrix
+Description= a matrix theme for plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sematrix
+ScriptFile=/usr/share/plymouth/themes/matrix/sematrix.script
+
